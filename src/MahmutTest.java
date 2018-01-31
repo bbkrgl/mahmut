@@ -22,7 +22,6 @@ public class MahmutTest extends TestbedTest{
     public void keyPressed(char keyCar, int keyCode) {
         switch (keyCar){
             case 'd':
-                getWorld().step(2,8,3);
                 mahmutBuilder.moveLeg1();
                 mahmutBuilder.moveLeg2();
                 break;
