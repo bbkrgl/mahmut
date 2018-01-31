@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: jbox2d-testbed-2.2.1.1.jar jbox2d-library-2.2.1.1.jar slf4
+ j-api-1.6.1.jar slf4j-log4j12-1.6.1.jar log4j-1.2.14.jar jbox2d-seria
+ lization-1.1.0.jar protobuf-java-2.4.1.jar
+Main-Class: 
+
