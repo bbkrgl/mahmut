@@ -20,11 +20,8 @@ public class MahmutTest extends TestbedTest{
 
     @Override
     public void keyPressed(char keyCar, int keyCode) {
-        switch (keyCar){
-            case 'd':
-                mahmutBuilder.moveLeg1();
-                mahmutBuilder.moveLeg2();
-                break;
+        if(keyCar == 'a'){
+            mahmutBuilder.moveLeg1((float)Math.PI/6);
         }
     }
 
@@ -36,7 +33,7 @@ public class MahmutTest extends TestbedTest{
 
         FixtureDef fd = new FixtureDef();
         fd.shape = ed;
-        fd.friction = 0.7f;
+        fd.friction = 1f;
 
         BodyDef bodyDef = new BodyDef();
         bodyDef.position = new Vec2(0,0);
